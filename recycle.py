@@ -8,7 +8,7 @@ CENTRE_Y = HEIGHT/2
 CENTRE =  (CENTRE_X,CENTRE_Y)
 FINAL_LEVEL = 6
 START_SPEED = 10
-ITEMS = ["bag","battery","bottle","crisps"]
+ITEMS = ["bag","battery","bottle","chips"]
 game_over = False
 game_complete = False
 current_level = 1
@@ -103,3 +103,4 @@ def stop_animations(animations_to_stop):
 
             
 pgzrun.go()
+
